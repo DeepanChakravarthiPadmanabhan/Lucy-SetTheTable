@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="convex_hull_inputnode" type="convex_hull_node"
+	name="convex_hull_node" output="screen">
+    <remap from="~event_in" to="/event_in"/>
+    <param name="input_table_pcd_file" type="string" value="$(find convex_hull_inputnode)/common/data/table_scene_lms400.pcd" />
+  </node>
+  <node pkg="tf" type="static_transform_publisher" name="camera"
+        args="0 -0.001 -2.4 -0.01 0.0 -1.05 camera base 100" />
+  <!-- <node pkg="tf" type="static_transform_publisher" name="test_frame_broadcaster"
+        args="0 0.0 -0.0 -0.00 0.0 -0.00 base test_frame 100" /> -->
+  <node pkg="tf" type="static_transform_publisher" name="table"
+        args="-0.785 -1.17 0.71 0 0 0 base table 100" />
+
+</launch>

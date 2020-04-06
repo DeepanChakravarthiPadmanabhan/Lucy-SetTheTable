@@ -1,0 +1,18 @@
+Number of Items: 4
+Table Item:
+- Fork:
+    Breadth: 0.05
+    Height: 0.05
+    Width: 0.2
+- Plate:
+    Breadth: 0.25
+    Height: 0.08
+    Width: 0.25
+- Knife:
+    Breadth: 0.05
+    Height: 0.05
+    Width: 0.2
+- Spoon:
+    Breadth: 0.05
+    Height: 0.05
+    Width: 0.2

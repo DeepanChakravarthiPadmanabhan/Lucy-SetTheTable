@@ -1,0 +1,202 @@
+## Project 1: Table setup
+
+### Date: 24.06.2019
+Deepan Chakravarthi Padmanabhan
+
+   * What did I do last week?
+	- Completed the final draft of the component diagrams and class diagrams.
+	- Worked on the final presentation
+
+### Date: 17.06.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week?
+	- Implemented Factory method design pattern to integrate various other surfaces in future. 
+   * What will I do in the following week?
+	- Integration and work on another surface scenario.
+	- Integrate the entire working node.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what?
+	- Challenges in creating the bounding box or proof of concept for the second scenario.
+	
+
+Muhammad Umer Ahmed Khan:
+
+   * What did I do last week? 
+      - Visualization of Bounding box using python
+   * What will I do in the following week? 
+      - Complete compilation and remove erros
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? 
+      - Currently, I am not sure how roslaunch works and would look into it. I am hopeful that I shall be able to fix it.
+
+
+### Date: 03.06.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week?
+	- Cleaned the convex hull transformation.
+	- Created the skeleton for the table setup package. To this package the other nodes created by the team members will be included along with the algorithm for table setup.
+   * What will I do in the following week?
+	- Look for ways to get the table configuration like width, corner points, etc.,
+	- Complete the table setup node.
+	- Integrate the entire working node.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what?
+	- Transformation of the convex hull parallel to the floor. Though the transformation was determined by using static tf publisher, including the transformation to the pcl was difficult. Currently, I am planning to include the static tf publisher values in the launchfile.
+
+
+### Date: 27.05.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week? <br/>
+      - Created the event_in trigger.
+      - Created the launch file.
+      - Faced challenges in reading the PCD point cloud data test file in the ROS node. The challenge has been overcome after discussing with Santosh.
+      - Polygonstamped msg is published and the entire node is running as per the discussed requirements.
+   * What will I do in the following week? <br/>
+      - Set the table from the polygonstamped msg for the team members to visualize.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Reading the pcd file in ROS.
+
+Sathiya Ramesh:
+
+   * What did I do last week? <br/>
+      - POC for setting the objects on the table in python
+   * What will I do in the following week? <br/>
+      - Create the transformation functions in c++
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - 
+
+### Date: 20.05.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week? <br/>
+      - Created a node for convex hull input. This node will provide the convex hull obtained from the pointcloud data as PolygonStamped msg to the central task node.
+   * What will I do in the following week? <br/>
+      - Convexhull input node will be modified depending on the central node topics/ requirements of the project.
+      - Yet to be decided in the meeting.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - First time developing a ROSNode from scratch. It was challenging and interesting to work.
+      - Converting the pcl convex hull to polygonstamped msg.
+
+Muhammad Umer Ahmed Khan:
+
+   * What did I do last week? <br/>
+      - Constructed spoons, plate and tables classes.
+      - Visualized the classes.
+      - Added Deepans work for visualization.
+   * What will I do in the following week? <br/>
+      - Work on configuration files for the project
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Unable to visualize all items at once.
+
+Sathiya Ramesh:
+
+   * What did I do last week? <br/>
+      - Trannsformation of bounding box
+      - Reading the poses from config file
+   * What will I do in the following week? <br/>
+      - Visualize the transformed bounding box
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Errors in reading the yaml file
+  
+### Date: 13.05.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week? <br/>
+      - Constructed a convex hull from a table point scene point cloud, and visualized the bounding box of the convex hull in rviz.
+   * What will I do in the following week? <br/>
+      - Should develop a ROSNode providing convex hull input to the central node.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - I was not able to understand the perception libs code. As I was unable to understand I wrote a small program to construct bounding box from the convex hull.
+
+Muhammad Umer Ahmed Khan:
+
+   * What did I do last week? <br/>
+      - Constructed spoons, plate and tables classes.
+      - Visualized the classes.
+      - Added Deepans work for visualization.
+   * What will I do in the following week? <br/>
+      - Work on configuration files for the project
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Unable to visualize all items at once.
+
+Sathiya Ramesh:
+
+   * What did I do last week? <br/>
+      - .
+   * What will I do in the following week? <br/>
+      - .
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - .
+
+### Date: 06.05.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week? <br/>
+      - Understaning the point cloud library.
+      - Obtained point cloud of a table and tried convex hull construction for the table point cloud.
+   * What will I do in the following week? <br/>
+      - Should transform the bounding box created by the team members and visualize it in rviz.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - The transformation frames are unclear.
+
+Muhammad Umer Ahmed Khan:
+
+   * What did I do last week? <br/>
+      - Learnt ROS basics for creating an entire packages.
+      - Completed the bounding box proof of concept.
+      - Solved the issues by adding the necessary project dependencies for the package created.
+   * What will I do in the following week? <br/>
+      - Discuss with Santosh and proceed further.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Project dependencies for the package created.
+      - Understanding the available codes.
+
+Sathiya Ramesh:
+
+   * What did I do last week? <br/>
+      - .
+   * What will I do in the following week? <br/>
+      - .
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - .
+
+     
+     
+### Date: 29.04.2019
+
+Deepan Chakravarthi Padmanabhan:
+
+   * What did I do last week? <br/>
+      - Understanding the project flow.
+      - Configuration file for the project.
+   * What will I do in the following week? <br/>
+      - Develop a convex hull and transform the convex hull.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - Yes, I could not intuitively understand the future progress of the work.
+
+Muhammad Umer Ahmed Khan:
+
+   * What did I do last week? <br/>
+      - Proof of concept for bounding box.
+   * What will I do in the following week? <br/>
+      - Will continue working on the proof of concept with a working example.
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - I was not familiar with ROS. 
+
+
+
+Sathiya Ramesh:
+
+   * What did I do last week? <br/>
+      - Understanding the ROS action server and action client.
+   * What will I do in the following week? <br/>
+      - Proof of concept for bounding box
+   * Do I have any problems which will prevent me from reaching our sprint goal? If yes, what? <br/>
+      - .
+

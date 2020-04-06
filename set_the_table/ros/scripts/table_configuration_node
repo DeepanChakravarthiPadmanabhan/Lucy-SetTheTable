@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import table_configuration_manager.table_config_manager_node
+
+if __name__ == '__main__':
+    table_configuration_manager.table_config_manager_node.TableSpecificationManager().main()
