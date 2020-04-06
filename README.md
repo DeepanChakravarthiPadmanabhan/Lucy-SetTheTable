@@ -3,7 +3,15 @@
 ## Title: Set the table
 
 ## Objective:
-The objective of this project is to assist a domestic service robot to set the table with the object provided by the user.
+The objective of this project is to assist a domestic service robot, Lucy to set the table with the object provided by the user.
+
+#### Team Members:
+
+[Deepan Chakravarthi Padmanabhan](https://github.com/DeepanChakravarthiPadmanabhan)
+
+[Muhammed Umer Ahmad Khan](https://github.com/umerkhan-mas)
+
+[Sathiya Ramesh](https://github.com/Shisthruna28)
 
 ## Project overview:
 The scope of the project is to provide the pose for each object to be placed on the table given the table and the item specifications as illustrated in the figure 1.
